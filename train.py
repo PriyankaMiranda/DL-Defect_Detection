@@ -56,7 +56,7 @@ class Train_Class:
 
 		# Hyper parameters
 		evaluate_every = 200 # interval for evaluating on one-shot tasks
-		batch_size = 10
+		batch_size = 2
 		eval_batch_size = 10
 		n_iter = 20000 # No. of training iterations
 		N_way = 20 # how many classes for testing one-shot tasks
@@ -69,6 +69,10 @@ class Train_Class:
 		with open(os.path.join(save_path, "train.pickle"), "rb") as f:
 			(Xtrain, train_classes) = pickle.load(f)
 
+		Xtrain = np.array(Xtrain)
+		n_sets, w, h , channels	= Xtrain.shape
+		train_classes = np.array(train_classes)
+
 		with open(os.path.join(save_path, "val.pickle"), "rb") as f:
 			(Xval, val_classes) = pickle.load(f)
 
@@ -77,66 +81,67 @@ class Train_Class:
 		t_start = time.time()
 
 		for i in range(1, n_iter+1):
-			for x in range(batch_size):
-				rand_pos = np.random.randint(len(train_classes)-1, size=(2, 1))
-				X.append([Xtrain[rand_pos[0]],Xtrain[rand_pos[1]]])
+			y = []
+			random_choices = np.random.choice(n_sets,size=(batch_size,),replace=False)
+			targets=np.zeros((batch_size,))
 
+			# 1st half has diff class(0's), 2nd half of batch has same class(1's)
+			targets[batch_size//2:] = 1
+			for i in range(batch_size):
+				pairs=[np.zeros((2, h, w, channels)) for i in range(2)]
+				random_choice = random_choices[i]
+				pairs[0][i,:,:,:] = Xtrain[random_choice].reshape(w, h, 3)
+				# pick images of same class for 1st half, different for 2nd
+				if i >= batch_size // 2:
+					# find another random integer with the same class
+					random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
+					while(train_classes[random_choice_2] != train_classes[random_choice]):
+						random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
+				else: 
+					# find a category with diff class
+					random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
+					while(train_classes[random_choice_2] == train_classes[random_choice]):
+						random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
+				
+				pairs[1][i,:,:,:] = Xtrain[random_choice_2].reshape(w, h, 3)
 
+			loss = model.train_on_batch(pairs,targets)
+			print(loss)
+			print("Done!")
+			input()
 
+		# 	if i % evaluate_every == 0:
+		# 		print("\n ------------- \n")
+		# 		print("Time for {0} iterations: {1} mins".format(i, (time.time()-t_start)/60.0))
+		# 		print("Train Loss: {0}".format(loss)) 
+		# 		X_eval = []
+		# 		y_eval = []
+		# 		for x in range(eval_batch_size):
+		# 			rand_pos = np.random.randint(len(train_classes)-1, size=(2, 1))
+		# 			X_eval.append([Xval[rand_pos[0]],Xval[rand_pos[1]]])				
+		# 			if (val_classes[rand_pos[0]] == val_classes[rand_pos[1]]):
+		# 				curr_y = 1
+		# 				y_eval.append(1) # same classes
+		# 			else:
+		# 				curr_y = 0
+		# 				y_eval.append(0) # diff classes
+		# 			curr_prob = model.predict([Xval[rand_pos[0]][0],Xval[rand_pos[1]][0]])
+		# 			# prob.append(curr_prob)
+		# 			if curr_prob == curr_y:
+		# 				n_correct+=1
 
-				# if K.image_data_format() == 'channels_first':
-				# 	x_train[rand_pos[0]] = x_train[rand_pos[0]].reshape(x_train.shape[0], 1, img_rows, img_cols)
-				# 	x_test = x_test.reshape(x_test.shape[0], 1, img_rows, img_cols)
-				# 	print(x_train.shape)
-				# 	input_shape = (1, img_rows, img_cols)
-				# else:
-				# 	x_train = x_train.reshape(x_train.shape[0], img_rows, img_cols, 1)
-				# 	x_test = x_test.reshape(x_test.shape[0], img_rows, img_cols, 1)
-				# 	input_shape = (img_rows, img_cols, 1)
+		# 		# for x in range(len(prob)):
+		# 		# 	if np.argmax(prob[x]) == np.argmax(y[x]):
 
+		# 		percent_correct = (100.0 * n_correct / len(y_eval))
+		# 		print("Got an average of {}% {} way one-shot learning accuracy \n".format(percent_correct,len(probs)))
 
-				if (train_classes[rand_pos[0]] == train_classes[rand_pos[1]]):
-					curr_y = 1
-					y.append(1) # same classes
-				else:
-					curr_y = 0
-					y.append(0) # diff classes
+		# 		model.save_weights(os.path.join(model_path, 'weights.{}.h5'.format(i)))
+		# 		if percent_correct >= best:
+		# 			print("Current best: {0}, previous best: {1}".format(percent_correct, best))
+		# 			best = percent_correct
 
-				loss = model.train_on_batch([Xtrain[rand_pos[0]],Xtrain[rand_pos[1]]], curr_y)
-				input()
-
-			if i % evaluate_every == 0:
-				print("\n ------------- \n")
-				print("Time for {0} iterations: {1} mins".format(i, (time.time()-t_start)/60.0))
-				print("Train Loss: {0}".format(loss)) 
-				X_eval = []
-				y_eval = []
-				for x in range(eval_batch_size):
-					rand_pos = np.random.randint(len(train_classes)-1, size=(2, 1))
-					X_eval.append([Xval[rand_pos[0]],Xval[rand_pos[1]]])				
-					if (val_classes[rand_pos[0]] == val_classes[rand_pos[1]]):
-						curr_y = 1
-						y_eval.append(1) # same classes
-					else:
-						curr_y = 0
-						y_eval.append(0) # diff classes
-					curr_prob = model.predict([Xval[rand_pos[0]][0],Xval[rand_pos[1]][0]])
-					# prob.append(curr_prob)
-					if curr_prob == curr_y:
-						n_correct+=1
-
-				# for x in range(len(prob)):
-				# 	if np.argmax(prob[x]) == np.argmax(y[x]):
-
-				percent_correct = (100.0 * n_correct / len(y_eval))
-				print("Got an average of {}% {} way one-shot learning accuracy \n".format(percent_correct,len(probs)))
-
-				model.save_weights(os.path.join(model_path, 'weights.{}.h5'.format(i)))
-				if percent_correct >= best:
-					print("Current best: {0}, previous best: {1}".format(percent_correct, best))
-					best = percent_correct
-
-		model.load_weights(os.path.join(model_path, "weights.20000.h5"))
+		# model.load_weights(os.path.join(model_path, "weights.20000.h5"))
 
 
 
