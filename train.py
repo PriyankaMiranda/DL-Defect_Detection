@@ -84,7 +84,7 @@ class Train_Class:
 		print("-------------------------------------")
 		t_start = time.time()
 
-		for i in range(1, n_iter+1):
+		for x in range(1, n_iter+1):
 			y = []
 			pairs=[np.zeros((batch_size, h, w, channels)) for i in range(2)]
 			random_choices = np.random.choice(n_sets,size=(batch_size,),replace=False)
@@ -109,11 +109,11 @@ class Train_Class:
 				pairs[1][i,:,:,:] = Xtrain[random_choice_2].reshape(w, h, 3)
 			
 			loss = model.train_on_batch(pairs,targets)
-			print("Loss: "+str(loss)+" Iteration: "+str(i))
+			print("Loss: "+str(loss)+" Iteration: "+str(x))
 
-			if i % evaluate_every == 0:
+			if x % evaluate_every == 0:
 				print("\n ------------- \n")
-				print("Time for {0} iterations: {1} mins".format(i, (time.time()-t_start)/60.0))
+				print("Time for {0} iterations: {1} mins".format(x, (time.time()-t_start)/60.0))
 				print("Train Loss: {0}".format(loss)) 
 				
 				pairs=[np.zeros((val_batch_size, h, w, channels)) for i in range(2)]
@@ -144,7 +144,7 @@ class Train_Class:
 
 				percent_correct = (100.0 * n_correct / len(val_batch_size))
 				print("Got an average of {}% {} way one-shot learning accuracy \n".format(percent_correct,len(val_batch_size)))
-				model.save_weights(os.path.join(model_path, 'weights.{}.h5'.format(i)))
+				model.save_weights(os.path.join(model_path, 'weights.{}.h5'.format(x)))
 				if percent_correct >= best:
 					print("Current best: {0}, previous best: {1}".format(percent_correct, best))
 					best = percent_correct

@@ -29,7 +29,7 @@ def generate_model():
 
     input_1 = Input(shape=(224, 224, 3))
     input_2 = Input(shape=(224, 224, 3))
-
+    
     base_model = VGG16()
 
     for x in base_model.layers[:-1]:
