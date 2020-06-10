@@ -55,7 +55,7 @@ class Train_Class:
 	def train(self, model):
 
 		# Hyper parameters
-		evaluate_every = 2 # interval for evaluating on one-shot tasks
+		evaluate_every = 10 # interval for evaluating on one-shot tasks
 		batch_size = 10
 		val_batch_size = 4
 		n_iter = 10000 # No. of training iterations
@@ -148,7 +148,7 @@ class Train_Class:
 				if percent_correct >= best:
 					print("Current best: {0}, previous best: {1}".format(percent_correct, best))
 					best = percent_correct
-		model.load_weights(os.path.join(model_path, "weights.20000.h5"))
+		model.load_weights(os.path.join(model_path, "weights.final.h5"))
 
 
 
