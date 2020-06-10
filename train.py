@@ -55,10 +55,10 @@ class Train_Class:
 	def train(self, model):
 
 		# Hyper parameters
-		evaluate_every = 200 # interval for evaluating on one-shot tasks
-		batch_size = 2
-		val_batch_size = 10
-		n_iter = 20000 # No. of training iterations
+		evaluate_every = 2 # interval for evaluating on one-shot tasks
+		batch_size = 10
+		val_batch_size = 4
+		n_iter = 10000 # No. of training iterations
 		N_way = 20 # how many classes for testing one-shot tasks
 		n_val = 250 # how many one-shot tasks to validate on
 		best = -1
