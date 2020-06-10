@@ -143,7 +143,7 @@ class Train_Class:
 					if (curr_prob[i] == targets[i]):
 						n_correct+=1
 
-				percent_correct = (100.0 * n_correct / len(val_batch_size))
+				percent_correct = (100.0 * n_correct / val_batch_size)
 				print("Got an average of {}% {} way one-shot learning accuracy \n".format(percent_correct,len(val_batch_size)))
 				model.save_weights(os.path.join(model_path, 'weights.{}.h5'.format(x)))
 				if percent_correct >= best:
