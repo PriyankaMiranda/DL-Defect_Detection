@@ -57,7 +57,7 @@ class Train_Class:
 		# Hyper parameters
 		evaluate_every = 200 # interval for evaluating on one-shot tasks
 		batch_size = 2
-		val_batch_size = 2
+		val_batch_size = 10
 		n_iter = 20000 # No. of training iterations
 		N_way = 20 # how many classes for testing one-shot tasks
 		n_val = 250 # how many one-shot tasks to validate on
@@ -106,12 +106,10 @@ class Train_Class:
 					random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
 					while(train_classes[random_choice_2] == train_classes[random_choice]):
 						random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
-				
 				pairs[1][i,:,:,:] = Xtrain[random_choice_2].reshape(w, h, 3)
 			
 			loss = model.train_on_batch(pairs,targets)
-			print("Done!")
-			input()
+			print("Loss: "+str(loss)+" Iteration: "+str(i))
 
 			if i % evaluate_every == 0:
 				print("\n ------------- \n")
