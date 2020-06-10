@@ -102,7 +102,6 @@ class Train_Class:
 					random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
 					while(train_classes[random_choice_2] == train_classes[random_choice]):
 						random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
-				
 				pairs[1][i,:,:,:] = Xtrain[random_choice_2].reshape(w, h, 3)
 
 			loss = model.train_on_batch(pairs,targets)
