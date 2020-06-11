@@ -14,12 +14,11 @@ model = Sequential()
 for layer in vgg16_model.layers[:-1]: # this is where I changed your code
     model.add(layer)    
 
-print(model.summary())
-
 # Freeze the layers 
 for layer in model.layers:
     layer.trainable = False
 
+print(model.summary())
 print(model.summary())
 
 # load an image from file
@@ -33,5 +32,3 @@ image = preprocess_input(image)
 # predict the probability across all output classes
 features = model.predict(image)
 # convert the probabilities to class labels
-print(features)
-print(len(features[0]))
