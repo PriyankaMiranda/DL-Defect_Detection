@@ -5,6 +5,10 @@ import pickle
 
 class Train_Class:
 
+	def myprint(s):
+		with open('modelresults.txt','w+') as f:
+			print(s, file=f)
+
 	def train(self, model):
 		# Hyper parameters
 		evaluate_every = 10 # interval for evaluating on one-shot tasks
@@ -61,13 +65,13 @@ class Train_Class:
 				pairs[1][i,:,:,:] = Xtrain[random_choice_2].reshape(w, h, 3)
 			
 			loss = model.train_on_batch(pairs,targets)
-			print("Loss: "+str(loss)+" Iteration: "+str(x))
 
 			if x % evaluate_every == 0:
 				print("\n ------------- \n")
-				print("Time for {0} iterations: {1} mins".format(x, (time.time()-t_start)/60.0))
-				print("Train Loss: {0}".format(loss)) 
-				
+				print("Time for {0} iterations: {1} mins. Train Loss: {2}".format(x, (time.time()-t_start)/60.0), loss)
+				loss_per_iter = "Loss: "+str(loss)+" Iteration: "+str(x)
+				myprint(loss_per_iter)
+
 				pairs=[np.zeros((val_batch_size, h, w, channels)) for i in range(2)]
 				random_choices = np.random.choice(n_sets_val,size=(val_batch_size,),replace=False)
 				targets=np.zeros((val_batch_size,))
@@ -91,6 +95,7 @@ class Train_Class:
 
 				curr_prob = model.predict(pairs)
 				n_correct = 0
+
 				for i in range(val_batch_size):
 					if (curr_prob[i] >= 0.5):
 						curr_prob[i] = 1
@@ -100,10 +105,14 @@ class Train_Class:
 						n_correct+=1
 
 				percent_correct = (100.0 * n_correct / val_batch_size)
-				print("Got an average of {}% {} way one-shot learning accuracy \n".format(percent_correct,val_batch_size))
+				print("Got an average of {0}% accuracy for {1} validation set  \n".format(percent_correct,val_batch_size))
+				accu_per_iter = "Accu: "+str(loss)+" Iteration: "+str(x)+" Validation dataset size: "+str(val_batch_size)
+				myprint(accu_per_iter)
 				if percent_correct >= best:
 					model.save_weights(os.path.join(model_path, 'my_model_weights.{}.h5'.format(x)))
 					print("Current best: {0}, previous best: {1}".format(percent_correct, best))
+					best_results = "Current best: "+str(percent_correct)+" previous best: "+str(best)
+					myprint(best_results)
 					best = percent_correct
 		model.load_weights(os.path.join(model_path, "my_model_weights.final.h5"))
 

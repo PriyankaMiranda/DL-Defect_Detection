@@ -14,20 +14,24 @@ The assignment is to come up with a deep-learning based solution that can differ
 Pipeline - 
 ------------
 
-2) Data augmentation -  
+1) Data augmentation -  
 	For both good and bad image.
 
-2) Feature extraction - 
-	Remove last softmax layer and get features for this image from existing pre-trained model (VGG, MobileNet, Resnet..)
-	Features extracted from models :
+2) Classification Neural net -
+	Siamese nural net (VGG model with some changes to the final 2 layers).
 	* VGG net : 4096 features  
+	Look at modelsummary to get the structure. 
+	The neural net identifies whther the two images are similar or different
 
-3) Training -
-	To do ....
-	Simple ML techniques
+3) Segmentation neural net - 
+	This net is used to identify keypoints in the two images deemed different based on the classification neural net.
+	These keypoints are matched to each other. The remaining unmatched keypoints in the tested are segmented.  
+
+4) Visualize data 
+
 
 	
 Other possibilies - 
 ---------------------
 
-* Siamese neural networks
+* Siamese neural network - other models to be tested - MobileNet, Resnet,Inception, Xception
