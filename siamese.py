@@ -29,21 +29,31 @@ def generate_model():
 
     input_1 = Input(shape=(224, 224, 3))
     input_2 = Input(shape=(224, 224, 3))
-    
+
     base_model = VGG16()
+    base_model.layers.pop() 
+    base_model.layers.pop()
+    base_model.layers.pop() 
 
-    for x in base_model.layers[:-1]:
-        x.trainable = True
+    new_model = Sequential()
+    new_model.add(base_model)
+    new_model.add(Dense(4096, activation='sigmoid',
+                   kernel_regularizer=None,
+                   kernel_initializer='glorot_uniform',bias_initializer=initialize_bias))
+ 
 
-    encoded_l = base_model(input_1)
-    encoded_r = base_model(input_2)
+    encoded_l = new_model(input_1)
+    encoded_r = new_model(input_2)
     L1_layer = Lambda(lambda tensors:K.abs(tensors[0] - tensors[1]))
     L1_distance = L1_layer([encoded_l, encoded_r])
 
     prediction = Dense(1,activation='sigmoid',bias_initializer=initialize_bias)(L1_distance)
     siamese_net = Model(inputs=[input_1,input_2],outputs=prediction)
-
     return siamese_net
+
+def myprint(s):
+    with open('modelsummary.txt','w+') as f:
+        print(s, file=f)
 
 if __name__ == "__main__":
     model = generate_model()    
