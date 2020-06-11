@@ -1,9 +1,6 @@
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import Input
-from keras.preprocessing.image import load_img
-from keras.preprocessing.image import img_to_array
-from keras.applications.vgg16 import preprocess_input
 from keras.applications.vgg16 import VGG16
 
 from keras import backend as K
@@ -14,9 +11,16 @@ from keras.layers import Input
 from keras.models import Model
 from keras.layers.merge import Concatenate
 from keras.layers import GlobalMaxPool2D
+from keras.regularizers import l2
 import numpy as np
 
 from train import Train_Class  
+
+from keras.preprocessing.image import load_img
+from keras.preprocessing.image import img_to_array
+from keras.applications.vgg16 import preprocess_input
+import os
+import pickle
 
 def initialize_bias(shape, dtype=None):
     """
@@ -49,6 +53,7 @@ def generate_model():
 
     prediction = Dense(1,activation='sigmoid',bias_initializer=initialize_bias)(L1_distance)
     siamese_net = Model(inputs=[input_1,input_2],outputs=prediction)
+
     return siamese_net
 
 def myprint(s):
@@ -57,13 +62,16 @@ def myprint(s):
 
 if __name__ == "__main__":
     model = generate_model()    
-    model.summary() 
+    model.summary(print_fn=myprint) 
+    input()
     optimizer = Adam(lr = 0.00006)
-    model.compile(loss="binary_crossentropy",optimizer=optimizer)
-    
+    model.compile(loss="binary_crossentropy",optimizer=optimizer)    
     print("Model loaded!")
 
     Train_Class.train(Train_Class, model)
+
+
+
 
 
 
