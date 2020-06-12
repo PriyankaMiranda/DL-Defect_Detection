@@ -24,12 +24,15 @@ Pipeline -
 	The neural net identifies whther the two images are similar or different
 
 3) Segmentation neural net -
-	* For now, rather than using a neural net, we go with SIFT image keypoint matching
+	RCNN
 
 	This net is used to identify keypoints in the two images deemed different based on the classification neural net.
 	These keypoints are matched to each other. The remaining unmatched keypoints in the tested are segmented.  
 
-4) Visualize data 
+
+4) Image stitching / superimposition
+
+
 
 
 	

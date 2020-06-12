@@ -2,17 +2,21 @@ import os
 import time 
 import numpy as np
 import pickle
+import matplotlib.pyplot as plt
+
+import cv2  
+import matplotlib.pyplot as plt
 
 class Train_Class:
 
 	def myprint(s):
-		with open('model_results_day2.txt','a') as f:
+		with open('model_results_day2_trial_5.txt','a') as f:
 			print(s, file=f)
 
 	def train(self, model):
 		# Hyper parameters
-		evaluate_every = 10 # interval for evaluating on one-shot tasks
-		batch_size = 10
+		evaluate_every = 2 # interval for evaluating on one-shot tasks
+		batch_size = 20
 		val_batch_size = 20
 		n_iter = 50000 # No. of training iterations
 		N_way = 20 # how many classes for testing one-shot tasks
@@ -57,6 +61,12 @@ class Train_Class:
 					random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
 					while(train_classes[random_choice_2] != train_classes[random_choice]):
 						random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
+					print("Same class!")
+					plt.figure()
+					f, axarr = plt.subplots(2,1)
+					axarr[0].imshow((pairs[0][i,:,:,:] * 255).astype(np.uint8))
+					axarr[1].imshow((Xtrain[random_choice_2].reshape(w, h, 3) * 255).astype(np.uint8))					
+					plt.show()
 				else: 
 					# find a category with diff class
 					random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
@@ -64,14 +74,17 @@ class Train_Class:
 						random_choice_2 = np.random.choice(n_sets,size=(1,),replace=False)
 				pairs[1][i,:,:,:] = Xtrain[random_choice_2].reshape(w, h, 3)
 			
-			loss = model.train_on_batch(pairs,targets)
+			# loss = model.train_on_batch(pairs,targets)
+			input()
+			history = model.fit(pairs, targets)
+			
 			print("\n ------------- \n")
-			print("Time for {0} iterations: {1} mins. Training Loss: {2}".format(x, (time.time()-t_start)/60.0, loss))
-				
+			print(history.history.values())
+
+
 			if x % evaluate_every == 0:
 				print("\n -------Saving data---- \n")
-				loss_per_iter = "Training Loss: "+str(loss)+" Iteration: "+str(x)
-				self.myprint(loss_per_iter)
+				self.myprint(history.history.values())
 
 				pairs=[np.zeros((val_batch_size, h, w, channels)) for i in range(2)]
 				random_choices = np.random.choice(n_sets_val,size=(val_batch_size,),replace=False)
@@ -108,17 +121,16 @@ class Train_Class:
 						n_correct+=1
 
 				percent_correct = (100.0 * n_correct / val_batch_size)
-				print("Got an average of {0}% accuracy for {1} validation set  \n".format(percent_correct,val_batch_size))
-				print("Validation Loss: "+str(loss))
-				accu_per_iter = "Validation Loss: "+str(loss)+", Iteration: "+str(x)+", Validation dataset size: "+str(val_batch_size)
+				print("Accu: "+str(percent_correct)+", Iteration: "+str(x)+", Validation dataset size: "+str(val_batch_size))
+				accu_per_iter = "Accu: "+str(percent_correct)+", Iteration: "+str(x)+", Validation dataset size: "+str(val_batch_size)
 				self.myprint(accu_per_iter)
 				print("Current best: {0}, previous best: {1}".format(percent_correct, best))
 				if percent_correct >= best:
-					model.save_weights(os.path.join(model_path, 'my_model_weights.{}.h5'.format(x)))
+					model.save_weights(os.path.join(model_path, 'my_model_weights_t5.{}.h5'.format(x)))
 					best_results = "Current best: "+str(percent_correct)+" previous best: "+str(best)
 					self.myprint(best_results)
 					best = percent_correct
-		model.load_weights(os.path.join(model_path, "my_model_weights.final.h5"))
+		model.load_weights(os.path.join(model_path, "my_model_weights_t5.final.h5"))
 
 
 
