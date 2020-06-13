@@ -27,15 +27,9 @@ def load_images(folder_paths):
             
             # load an image from file
             image = load_img(image_path, target_size=(224, 224))
-            # convert the image pixels to a numpy array
             image = img_to_array(image)
-            # reshape data for the model
-            # image = image.reshape((1, image.shape[0], image.shape[1], image.shape[2]))
-            # prepare the image for the VGG model
             image = preprocess_input(image)
 
-            print(image.shape)
-            input()
             category_images.append(image)
             y.append(classes[className])
             X.append(image)

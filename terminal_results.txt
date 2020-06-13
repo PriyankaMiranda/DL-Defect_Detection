@@ -1,0 +1,2439 @@
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 39s 2s/step - loss: 39.7787 - acc: 0.4500 - auroc: 0.4400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[39.77873992919922], [0.45], [0.44]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 49.4316 - acc: 0.4000 - auroc: 0.3400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[49.43157196044922], [0.4], [0.34]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[3.5673380e-04]
+0|priyanka  |  [9.9999988e-01]
+0|priyanka  |  [1.0798275e-03]
+0|priyanka  |  [9.9999988e-01]
+0|priyanka  |  [9.9999988e-01]
+0|priyanka  |  [9.9999732e-01]
+0|priyanka  |  [9.9999988e-01]
+0|priyanka  |  [5.4440498e-03]
+0|priyanka  |  [9.9702442e-01]
+0|priyanka  |  [9.9999988e-01]
+0|priyanka  |  [9.9999833e-01]
+0|priyanka  |  [7.0775151e-03]
+0|priyanka  |  [9.9082839e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.6981978e-01]
+0|priyanka  |  [9.9992269e-01]
+0|priyanka  |  [9.9999988e-01]
+0|priyanka  |  [9.9887627e-01]
+0|priyanka  |  [9.9998844e-01]
+0|priyanka  |  [9.9999774e-01]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 60.0, Iteration: 2, Validation dataset size: 20
+0|priyanka  | Current best: 60.0, previous best: -1
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 65.6368 - acc: 0.4000 - auroc: 0.3400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[65.63678741455078], [0.4], [0.34]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 49.9153 - acc: 0.4500 - auroc: 0.5050
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[49.915321350097656], [0.45], [0.505]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[9.9998057e-01]
+0|priyanka  |  [9.0108275e-01]
+0|priyanka  |  [8.6010402e-01]
+0|priyanka  |  [3.9361537e-02]
+0|priyanka  |  [1.1880398e-03]
+0|priyanka  |  [1.4868915e-02]
+0|priyanka  |  [6.4247102e-02]
+0|priyanka  |  [1.4644966e-01]
+0|priyanka  |  [9.9620569e-01]
+0|priyanka  |  [9.5489621e-04]
+0|priyanka  |  [9.9999285e-01]
+0|priyanka  |  [1.6781822e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9986517e-01]
+0|priyanka  |  [2.6982725e-03]
+0|priyanka  |  [9.9819851e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999583e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.6847087e-01]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 70.0, Iteration: 4, Validation dataset size: 20
+0|priyanka  | Current best: 70.0, previous best: 60.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 36.2700 - acc: 0.6000 - auroc: 0.5250
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[36.270042419433594], [0.6], [0.525]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 41.7129 - acc: 0.4500 - auroc: 0.5700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[41.71293640136719], [0.45], [0.57]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[7.2285402e-01]
+0|priyanka  |  [9.0301037e-06]
+0|priyanka  |  [5.0663948e-07]
+0|priyanka  |  [8.9044994e-01]
+0|priyanka  |  [4.9991700e-01]
+0|priyanka  |  [7.2285402e-01]
+0|priyanka  |  [4.9991700e-01]
+0|priyanka  |  [2.2560358e-05]
+0|priyanka  |  [9.9926716e-01]
+0|priyanka  |  [3.7051705e-01]
+0|priyanka  |  [9.9868554e-01]
+0|priyanka  |  [9.9999970e-01]
+0|priyanka  |  [9.9952793e-01]
+0|priyanka  |  [7.6675713e-03]
+0|priyanka  |  [9.9765611e-01]
+0|priyanka  |  [1.0579824e-05]
+0|priyanka  |  [7.6675401e-03]
+0|priyanka  |  [9.1853893e-01]
+0|priyanka  |  [9.9999738e-01]
+0|priyanka  |  [4.2084664e-02]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 60.0, Iteration: 6, Validation dataset size: 20
+0|priyanka  | Current best: 60.0, previous best: 70.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 56.5243 - acc: 0.5000 - auroc: 0.3300
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[56.5242919921875], [0.5], [0.33]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 27s 1s/step - loss: 32.2231 - acc: 0.6000 - auroc: 0.7550
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[32.22313690185547], [0.6], [0.755]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.99675560e-05]
+0|priyanka  |  [1.15314394e-01]
+0|priyanka  |  [2.82824039e-05]
+0|priyanka  |  [3.42875719e-04]
+0|priyanka  |  [2.98023224e-08]
+0|priyanka  |  [4.95496392e-03]
+0|priyanka  |  [1.43051147e-06]
+0|priyanka  |  [9.51999247e-01]
+0|priyanka  |  [9.89064217e-01]
+0|priyanka  |  [9.99989629e-01]
+0|priyanka  |  [9.98948038e-01]
+0|priyanka  |  [2.83122063e-06]
+0|priyanka  |  [1.89168394e-01]
+0|priyanka  |  [9.99999881e-01]
+0|priyanka  |  [2.17740893e-01]
+0|priyanka  |  [9.99999523e-01]
+0|priyanka  |  [1.11548485e-04]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [5.93744917e-03]
+0|priyanka  |  [1.00000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 60.0, Iteration: 8, Validation dataset size: 20
+0|priyanka  | Current best: 60.0, previous best: 70.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 27s 1s/step - loss: 49.1523 - acc: 0.5000 - auroc: 0.3900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[49.152259826660156], [0.5], [0.39]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 28s 1s/step - loss: 32.9168 - acc: 0.5500 - auroc: 0.5850
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[32.916770935058594], [0.55], [0.585]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[7.3343515e-05]
+0|priyanka  |  [8.6613405e-01]
+0|priyanka  |  [9.7784543e-01]
+0|priyanka  |  [9.9721098e-01]
+0|priyanka  |  [9.9999225e-01]
+0|priyanka  |  [3.9494061e-01]
+0|priyanka  |  [3.4676164e-01]
+0|priyanka  |  [1.3834238e-04]
+0|priyanka  |  [1.2462452e-01]
+0|priyanka  |  [9.9884748e-01]
+0|priyanka  |  [1.1570126e-01]
+0|priyanka  |  [9.9999684e-01]
+0|priyanka  |  [1.4960766e-05]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9842370e-01]
+0|priyanka  |  [9.9991387e-01]
+0|priyanka  |  [9.9787378e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9952841e-01]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 65.0, Iteration: 10, Validation dataset size: 20
+0|priyanka  | Current best: 65.0, previous best: 70.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 35.2517 - acc: 0.5000 - auroc: 0.5450
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[35.251739501953125], [0.5], [0.545]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 45.6060 - acc: 0.5000 - auroc: 0.6750
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[45.605987548828125], [0.5], [0.675]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[9.9989480e-01]
+0|priyanka  |  [4.9987623e-01]
+0|priyanka  |  [9.9988776e-01]
+0|priyanka  |  [1.0132790e-06]
+0|priyanka  |  [9.6810108e-01]
+0|priyanka  |  [9.9999905e-01]
+0|priyanka  |  [6.7454576e-04]
+0|priyanka  |  [1.6415119e-04]
+0|priyanka  |  [8.7803316e-01]
+0|priyanka  |  [9.7992986e-01]
+0|priyanka  |  [9.9997967e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [7.0486045e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999881e-01]
+0|priyanka  |  [7.5977542e-03]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [8.9362431e-01]
+0|priyanka  |  [9.9999321e-01]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 65.0, Iteration: 12, Validation dataset size: 20
+0|priyanka  | Current best: 65.0, previous best: 70.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 30.4332 - acc: 0.5500 - auroc: 0.8200
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[30.433242797851562], [0.55], [0.82]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 36.7304 - acc: 0.6000 - auroc: 0.6150
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[36.730411529541016], [0.6], [0.615]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.0000000e+00]
+0|priyanka  |  [3.2782555e-07]
+0|priyanka  |  [1.3932586e-04]
+0|priyanka  |  [9.9817210e-01]
+0|priyanka  |  [9.9999624e-01]
+0|priyanka  |  [2.8312206e-06]
+0|priyanka  |  [9.9994421e-01]
+0|priyanka  |  [7.8853488e-01]
+0|priyanka  |  [1.7646101e-01]
+0|priyanka  |  [8.9406967e-08]
+0|priyanka  |  [9.9897337e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9996698e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.1259211e-01]
+0|priyanka  |  [9.9996698e-01]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 75.0, Iteration: 14, Validation dataset size: 20
+0|priyanka  | Current best: 75.0, previous best: 70.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 35.2009 - acc: 0.6000 - auroc: 0.6150
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[35.20091247558594], [0.6], [0.615]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 45.8758 - acc: 0.6000 - auroc: 0.6400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[45.87583923339844], [0.6], [0.64]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[5.4634213e-02]
+0|priyanka  |  [9.7270870e-01]
+0|priyanka  |  [9.9866915e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999976e-01]
+0|priyanka  |  [9.9228454e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9992913e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.3893843e-04]
+0|priyanka  |  [9.9735689e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999964e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [2.0711011e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 55.0, Iteration: 16, Validation dataset size: 20
+0|priyanka  | Current best: 55.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 16.4538 - acc: 0.6000 - auroc: 0.7300
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[16.453794479370117], [0.6], [0.73]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 39.0475 - acc: 0.6500 - auroc: 0.5200
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[39.04747772216797], [0.65], [0.52]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999821e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9996614e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.2516975e-06]
+0|priyanka  |  [1.6430289e-02]
+0|priyanka  |  [1.2516975e-06]
+0|priyanka  |  [9.9999416e-01]
+0|priyanka  |  [7.1094072e-01]
+0|priyanka  |  [9.9999332e-01]
+0|priyanka  |  [7.1094072e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [5.3891337e-01]
+0|priyanka  |  [9.9999785e-01]
+0|priyanka  |  [9.9999785e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 65.0, Iteration: 18, Validation dataset size: 20
+0|priyanka  | Current best: 65.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 32.1418 - acc: 0.5500 - auroc: 0.3000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[32.141849517822266], [0.55], [0.3]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 41.5778 - acc: 0.6000 - auroc: 0.5550
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[41.57783508300781], [0.6], [0.555]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.00000000e+00]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [6.78300858e-05]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [1.13129616e-04]
+0|priyanka  |  [9.99999166e-01]
+0|priyanka  |  [1.70290470e-04]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [4.17232513e-07]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [9.99185801e-01]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [1.00000000e+00]
+0|priyanka  |  [1.00000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 70.0, Iteration: 20, Validation dataset size: 20
+0|priyanka  | Current best: 70.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 18.5798 - acc: 0.7500 - auroc: 0.7750
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[18.57976722717285], [0.75], [0.775]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 25.6826 - acc: 0.6000 - auroc: 0.6200
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[25.682613372802734], [0.6], [0.62]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.        ]
+0|priyanka  |  [0.9999646 ]
+0|priyanka  |  [0.99998206]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.9999999 ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 50.0, Iteration: 22, Validation dataset size: 20
+0|priyanka  | Current best: 50.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 26.5012 - acc: 0.7000 - auroc: 0.7100
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[26.5012149810791], [0.7], [0.71]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 39.8288 - acc: 0.5500 - auroc: 0.5800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[39.828834533691406], [0.55], [0.58]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[9.9992806e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.0897083e-06]
+0|priyanka  |  [4.9981561e-01]
+0|priyanka  |  [9.9999988e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999994e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 60.0, Iteration: 24, Validation dataset size: 20
+0|priyanka  | Current best: 60.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 21.6562 - acc: 0.6000 - auroc: 0.7000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[21.656190872192383], [0.6], [0.7]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 10.3809 - acc: 0.8000 - auroc: 0.8900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[10.380857467651367], [0.8], [0.89]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.0000000e+00]
+0|priyanka  |  [9.9999988e-01]
+0|priyanka  |  [2.1074772e-01]
+0|priyanka  |  [9.9999988e-01]
+0|priyanka  |  [9.9999785e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.4901161e-07]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [7.7784061e-05]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 65.0, Iteration: 26, Validation dataset size: 20
+0|priyanka  | Current best: 65.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 25.5185 - acc: 0.7500 - auroc: 0.7700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[25.51846694946289], [0.75], [0.77]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 37.6359 - acc: 0.5500 - auroc: 0.5150
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[37.63594436645508], [0.55], [0.515]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[4.7028065e-05]
+0|priyanka  |  [9.9999994e-01]
+0|priyanka  |  [4.3779612e-05]
+0|priyanka  |  [9.9999994e-01]
+0|priyanka  |  [9.9980330e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999952e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 60.0, Iteration: 28, Validation dataset size: 20
+0|priyanka  | Current best: 60.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 31.5421 - acc: 0.6000 - auroc: 0.6100
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[31.542139053344727], [0.6], [0.61]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 21.7263 - acc: 0.7000 - auroc: 0.8000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[21.72625732421875], [0.7], [0.8]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999976e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.1920929e-07]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9365139e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9998480e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 55.0, Iteration: 30, Validation dataset size: 20
+0|priyanka  | Current best: 55.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 31.6091 - acc: 0.6000 - auroc: 0.7000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[31.609119415283203], [0.6], [0.7]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 23.5531 - acc: 0.7000 - auroc: 0.7200
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[23.55308723449707], [0.7], [0.72]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.0000000e+00]
+0|priyanka  |  [4.9977395e-01]
+0|priyanka  |  [3.3760071e-04]
+0|priyanka  |  [8.9193738e-01]
+0|priyanka  |  [9.9996114e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [3.3760071e-04]
+0|priyanka  |  [9.9343145e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [6.9824320e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [6.9824320e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 65.0, Iteration: 32, Validation dataset size: 20
+0|priyanka  | Current best: 65.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 44.8760 - acc: 0.6000 - auroc: 0.6300
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[44.8759765625], [0.6], [0.63]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 39.7091 - acc: 0.5000 - auroc: 0.6800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[39.709083557128906], [0.5], [0.68]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [0.9999999]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [0.7747147]
+0|priyanka  |  [0.9999999]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 50.0, Iteration: 34, Validation dataset size: 20
+0|priyanka  | Current best: 50.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 28.2073 - acc: 0.6500 - auroc: 0.6150
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[28.207300186157227], [0.65], [0.615]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 15.6569 - acc: 0.7000 - auroc: 0.8700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[15.656854629516602], [0.7], [0.87]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.0000000e+00]
+0|priyanka  |  [1.4394522e-05]
+0|priyanka  |  [2.9657459e-01]
+0|priyanka  |  [8.7146986e-01]
+0|priyanka  |  [9.1978866e-01]
+0|priyanka  |  [1.0639429e-05]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [4.9976259e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0639429e-05]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9395472e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 75.0, Iteration: 36, Validation dataset size: 20
+0|priyanka  | Current best: 75.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 38.6364 - acc: 0.5500 - auroc: 0.4000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[38.63643264770508], [0.55], [0.4]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 16.6208 - acc: 0.6500 - auroc: 0.9000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[16.620750427246094], [0.65], [0.9]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [5.7518482e-05]
+0|priyanka  |  [1.8271804e-04]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9995577e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0192394e-05]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [2.1769878e-05]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 60.0, Iteration: 38, Validation dataset size: 20
+0|priyanka  | Current best: 60.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 32.1063 - acc: 0.6500 - auroc: 0.6400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[32.106292724609375], [0.65], [0.64]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 15.9855 - acc: 0.6500 - auroc: 0.8600
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[15.985467910766602], [0.65], [0.86]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[2.9802322e-08]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [4.1723251e-06]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [6.0886085e-02]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [9.9982977e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 75.0, Iteration: 40, Validation dataset size: 20
+0|priyanka  | Current best: 75.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 47.5798 - acc: 0.5500 - auroc: 0.5100
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[47.57979202270508], [0.55], [0.51]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 17.9553 - acc: 0.7000 - auroc: 0.7300
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[17.955326080322266], [0.7], [0.73]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[9.9999994e-01]
+0|priyanka  |  [9.9999976e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9975550e-01]
+0|priyanka  |  [9.9999654e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9975550e-01]
+0|priyanka  |  [1.6987324e-06]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [5.6815147e-04]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [5.6819670e-04]
+0|priyanka  |  [9.9997735e-01]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 50.0, Iteration: 42, Validation dataset size: 20
+0|priyanka  | Current best: 50.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 44.4530 - acc: 0.6000 - auroc: 0.6000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[44.45304489135742], [0.6], [0.6]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 16.5116 - acc: 0.8500 - auroc: 0.8700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[16.511642456054688], [0.85], [0.87]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[6.2341452e-02]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9994981e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [2.7572215e-03]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [8.2402229e-03]
+0|priyanka  |  [9.0052164e-01]
+0|priyanka  |  [3.1590462e-06]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9995649e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 70.0, Iteration: 44, Validation dataset size: 20
+0|priyanka  | Current best: 70.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 21.8962 - acc: 0.6000 - auroc: 0.7250
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[21.896221160888672], [0.6], [0.725]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 20.3838 - acc: 0.7500 - auroc: 0.7650
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[20.38376235961914], [0.75], [0.765]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.9999996 ]
+0|priyanka  |  [0.97678745]
+0|priyanka  |  [0.9991523 ]
+0|priyanka  |  [0.9999277 ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.9998685 ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 55.0, Iteration: 46, Validation dataset size: 20
+0|priyanka  | Current best: 55.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 24.1776 - acc: 0.7000 - auroc: 0.6400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[24.177566528320312], [0.7], [0.64]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 32.9539 - acc: 0.6000 - auroc: 0.7200
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[32.953895568847656], [0.6], [0.72]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.03543815]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.49975845]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.07571658]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.999972  ]
+0|priyanka  |  [0.999411  ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 80.0, Iteration: 48, Validation dataset size: 20
+0|priyanka  | Current best: 80.0, previous best: 75.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 22.6567 - acc: 0.7000 - auroc: 0.8050
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[22.656749725341797], [0.7], [0.805]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 35.7649 - acc: 0.6500 - auroc: 0.8600
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[35.764923095703125], [0.65], [0.86]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[8.874171e-01]
+0|priyanka  |  [9.998326e-01]
+0|priyanka  |  [4.917383e-06]
+0|priyanka  |  [8.404255e-06]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [8.096270e-01]
+0|priyanka  |  [0.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]
+0|priyanka  |  [1.000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 65.0, Iteration: 50, Validation dataset size: 20
+0|priyanka  | Current best: 65.0, previous best: 80.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 27.9096 - acc: 0.6000 - auroc: 0.7500
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[27.909561157226562], [0.6], [0.75]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 22.9866 - acc: 0.7000 - auroc: 0.6200
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[22.986570358276367], [0.7], [0.62]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.19639915]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.71686167]
+0|priyanka  |  [0.00508684]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.23524281]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 80.0, Iteration: 52, Validation dataset size: 20
+0|priyanka  | Current best: 80.0, previous best: 80.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 16.1577 - acc: 0.7000 - auroc: 0.8350
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[16.157745361328125], [0.7], [0.835]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 28.8644 - acc: 0.6000 - auroc: 0.5600
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[28.864416122436523], [0.6], [0.56]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9946284e-01]
+0|priyanka  |  [1.1026859e-06]
+0|priyanka  |  [9.9999982e-01]
+0|priyanka  |  [9.8023069e-01]
+0|priyanka  |  [1.2725592e-05]
+0|priyanka  |  [4.7557211e-01]
+0|priyanka  |  [3.0235946e-03]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999559e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 70.0, Iteration: 54, Validation dataset size: 20
+0|priyanka  | Current best: 70.0, previous best: 80.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 18.4282 - acc: 0.6500 - auroc: 0.8700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[18.428157806396484], [0.65], [0.87]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 18.3101 - acc: 0.6500 - auroc: 0.8350
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[18.3100643157959], [0.65], [0.835]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.9999997 ]
+0|priyanka  |  [0.9999994 ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.16845393]
+0|priyanka  |  [0.99999464]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.9999997 ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.9565246 ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 70.0, Iteration: 56, Validation dataset size: 20
+0|priyanka  | Current best: 70.0, previous best: 80.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 23.3378 - acc: 0.6500 - auroc: 0.6700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[23.337751388549805], [0.65], [0.67]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 17.9186 - acc: 0.7500 - auroc: 0.7600
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[17.918611526489258], [0.75], [0.76]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [5.9604645e-08]
+0|priyanka  |  [9.9963403e-01]
+0|priyanka  |  [3.4868717e-06]
+0|priyanka  |  [6.9737434e-06]
+0|priyanka  |  [4.8100948e-05]
+0|priyanka  |  [7.8498209e-01]
+0|priyanka  |  [4.8100948e-05]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [2.1308661e-05]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9998021e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.4486415e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 58, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 80.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 36.9655 - acc: 0.5500 - auroc: 0.6650
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[36.965484619140625], [0.55], [0.665]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 44.1333 - acc: 0.5000 - auroc: 0.5200
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[44.13334655761719], [0.5], [0.52]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.9460917e-05]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.3602169e-01]
+0|priyanka  |  [4.9977520e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.8347664e-06]
+0|priyanka  |  [7.7855086e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [9.9583030e-01]
+0|priyanka  |  [9.9494106e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [6.1838796e-07]
+0|priyanka  |  [9.9999988e-01]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 65.0, Iteration: 60, Validation dataset size: 20
+0|priyanka  | Current best: 65.0, previous best: 90.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 9.1053 - acc: 0.8500 - auroc: 0.8800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[9.105319023132324], [0.85], [0.88]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 24.7923 - acc: 0.7000 - auroc: 0.7600
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[24.792255401611328], [0.7], [0.76]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [5.4132938e-04]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [4.9499041e-01]
+0|priyanka  |  [9.2908400e-01]
+0|priyanka  |  [1.1024037e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [9.9999809e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 80.0, Iteration: 62, Validation dataset size: 20
+0|priyanka  | Current best: 80.0, previous best: 90.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 8.0975 - acc: 0.8000 - auroc: 0.9450
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[8.097528457641602], [0.8], [0.945]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 12.0913 - acc: 0.8500 - auroc: 0.8200
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[12.091285705566406], [0.85], [0.82]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.0000000e+00]
+0|priyanka  |  [9.2564821e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [5.7077408e-04]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [6.8545341e-07]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.1920929e-07]
+0|priyanka  |  [1.1920929e-07]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 65.0, Iteration: 64, Validation dataset size: 20
+0|priyanka  | Current best: 65.0, previous best: 90.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 39.6065 - acc: 0.5500 - auroc: 0.5000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[39.606536865234375], [0.55], [0.5]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 21.3691 - acc: 0.7500 - auroc: 0.7550
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[21.3691349029541], [0.75], [0.755]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [2.3901463e-05]
+0|priyanka  |  [9.9999666e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.8439317e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [2.0861626e-07]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [2.9802322e-08]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.6269768e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 80.0, Iteration: 66, Validation dataset size: 20
+0|priyanka  | Current best: 80.0, previous best: 90.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 18.6429 - acc: 0.7500 - auroc: 0.7800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[18.642887115478516], [0.75], [0.78]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 8.4074 - acc: 0.8000 - auroc: 0.8700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[8.407389640808105], [0.8], [0.87]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [6.9733262e-03]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [3.7953258e-04]
+0|priyanka  |  [5.9604645e-08]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [9.9999905e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [4.9976867e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 68, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 90.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 24.9700 - acc: 0.7500 - auroc: 0.7800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[24.96996307373047], [0.75], [0.78]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 10.9544 - acc: 0.8000 - auroc: 0.9000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[10.954374313354492], [0.8], [0.9]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [1.3162494e-03]
+0|priyanka  |  [9.5367432e-07]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.6244817e-01]
+0|priyanka  |  [7.9746127e-02]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [9.5367432e-07]
+0|priyanka  |  [6.1640978e-02]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.8745161e-01]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 70, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 90.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 8.0590 - acc: 0.9000 - auroc: 0.8900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[8.05904769897461], [0.9], [0.89]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 47.7153 - acc: 0.5500 - auroc: 0.6550
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[47.71531295776367], [0.55], [0.655]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [9.9999726e-01]
+0|priyanka  |  [9.9979854e-01]
+0|priyanka  |  [4.1595101e-04]
+0|priyanka  |  [9.9997997e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9907625e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.2680888e-04]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]] [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 70.0, Iteration: 72, Validation dataset size: 20
+0|priyanka  | Current best: 70.0, previous best: 90.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 23.8342 - acc: 0.6500 - auroc: 0.7700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[23.834217071533203], [0.65], [0.77]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 12.0886 - acc: 0.8500 - auroc: 0.8350
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[12.088571548461914], [0.85], [0.835]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.912263  ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.99999964]
+0|priyanka  |  [0.00265238]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.912263  ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.40192562]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.78352565]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 80.0, Iteration: 74, Validation dataset size: 20
+0|priyanka  | Current best: 80.0, previous best: 90.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 23.3420 - acc: 0.6000 - auroc: 0.6700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[23.34197998046875], [0.6], [0.67]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 13.5257 - acc: 0.8000 - auroc: 0.8500
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[13.525728225708008], [0.8], [0.85]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9894381e-01]
+0|priyanka  |  [8.9406967e-08]
+0|priyanka  |  [9.9997282e-01]
+0|priyanka  |  [9.9997282e-01]
+0|priyanka  |  [1.9966435e-01]
+0|priyanka  |  [3.0100346e-06]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [9.9894381e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.7632527e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 65.0, Iteration: 76, Validation dataset size: 20
+0|priyanka  | Current best: 65.0, previous best: 90.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 15.3182 - acc: 0.7000 - auroc: 0.8950
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[15.318222045898438], [0.7], [0.895]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 6.6699 - acc: 0.8500 - auroc: 0.9400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[6.669888496398926], [0.85], [0.94]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[8.0466270e-07]
+0|priyanka  |  [9.9989951e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [8.8321865e-03]
+0|priyanka  |  [7.7983737e-04]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [9.9999988e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999917e-01]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 80.0, Iteration: 78, Validation dataset size: 20
+0|priyanka  | Current best: 80.0, previous best: 90.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 9.8486 - acc: 0.8500 - auroc: 0.8700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[9.848584175109863], [0.85], [0.87]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 8.8955 - acc: 0.8000 - auroc: 0.9250
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[8.895472526550293], [0.8], [0.925]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.7497313e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [6.6707134e-03]
+0|priyanka  |  [8.9406967e-08]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.8399866e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 80, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 90.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 16.2482 - acc: 0.7500 - auroc: 0.8000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[16.2481632232666], [0.75], [0.8]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 4.5509 - acc: 0.9000 - auroc: 0.9400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.550909042358398], [0.9], [0.94]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[7.3909760e-05]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [4.9977964e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.5351176e-04]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [4.7340667e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [2.2004545e-02]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 82, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 26.6422 - acc: 0.7500 - auroc: 0.7900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[26.64215087890625], [0.75], [0.79]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 16.4604 - acc: 0.6500 - auroc: 0.7500
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[16.46038055419922], [0.65], [0.75]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [5.9604645e-08]
+0|priyanka  |  [3.0080140e-02]
+0|priyanka  |  [8.3193290e-01]
+0|priyanka  |  [9.9508154e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [2.2470951e-05]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.5535831e-02]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 85.0, Iteration: 84, Validation dataset size: 20
+0|priyanka  | Current best: 85.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 6.4891 - acc: 0.8500 - auroc: 0.9400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[6.489097595214844], [0.85], [0.94]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 4.0324 - acc: 0.9500 - auroc: 0.9450
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.032364368438721], [0.95], [0.945]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.61415076]
+0|priyanka  |  [0.00132442]
+0|priyanka  |  [0.03924194]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 86, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 8.2620 - acc: 0.8500 - auroc: 0.8900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[8.261994361877441], [0.85], [0.89]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 12.1741 - acc: 0.9000 - auroc: 0.9500
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[12.174090385437012], [0.9], [0.95]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.        ]
+0|priyanka  |  [0.98127335]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 88, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 14.4548 - acc: 0.7500 - auroc: 0.8800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[14.454813003540039], [0.75], [0.88]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 15.5976 - acc: 0.8000 - auroc: 0.8950
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[15.597600936889648], [0.8], [0.895]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[9.7977543e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.7404556e-04]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [7.0065260e-04]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [3.2842159e-05]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 90, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 6.0587 - acc: 0.9000 - auroc: 0.9400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[6.058695316314697], [0.9], [0.94]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 23.5350 - acc: 0.7500 - auroc: 0.8100
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[23.535022735595703], [0.75], [0.81]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [4.7502667e-02]
+0|priyanka  |  [9.6606654e-01]
+0|priyanka  |  [1.1026859e-06]
+0|priyanka  |  [1.8505752e-03]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.1026859e-06]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999839e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 92, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 8.0591 - acc: 0.9000 - auroc: 0.8900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[8.059057235717773], [0.9], [0.89]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 4.0295 - acc: 0.9500 - auroc: 0.9500
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.029523849487305], [0.95], [0.95]])
+0|priyanka  |  -------Saving data---- 
+	0|priyanka  | [[1.4901161e-07]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [9.7510219e-04]
+0|priyanka  |  [4.6791512e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [5.0663948e-07]
+0|priyanka  |  [1.4901161e-07]
+0|priyanka  |  [5.0663948e-07]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 94, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 15.5062 - acc: 0.8000 - auroc: 0.8100
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[15.506230354309082], [0.8], [0.81]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 3.6335 - acc: 0.9500 - auroc: 0.9900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[3.6335270404815674], [0.95], [0.99]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0669231e-05]
+0|priyanka  |  [4.9983460e-01]
+0|priyanka  |  [1.4007092e-06]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [2.6524067e-06]
+0|priyanka  |  [4.4915080e-04]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.5397450e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [9.9998105e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 85.0, Iteration: 96, Validation dataset size: 20
+0|priyanka  | Current best: 85.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 4.1694 - acc: 0.9000 - auroc: 0.9400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.1694111824035645], [0.9], [0.94]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 8.8252 - acc: 0.7500 - auroc: 0.9250
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[8.825244903564453], [0.75], [0.925]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [1.4901161e-07]
+0|priyanka  |  [6.1988831e-06]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.4901161e-07]
+0|priyanka  |  [2.0563602e-06]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [5.0663948e-07]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 85.0, Iteration: 98, Validation dataset size: 20
+0|priyanka  | Current best: 85.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 1.5852e-13 - acc: 1.0000 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[1.5852288015247296e-13], [1.0], [1.0]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 18.5947 - acc: 0.7500 - auroc: 0.8700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[18.594703674316406], [0.75], [0.87]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [4.9984816e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [2.9802322e-08]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [3.4449428e-02]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 100, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 8.1200 - acc: 0.9000 - auroc: 0.8700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[8.120001792907715], [0.9], [0.87]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 16.1181 - acc: 0.8000 - auroc: 0.8000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[16.11810302734375], [0.8], [0.8]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.1026859e-06]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [3.7294573e-01]
+0|priyanka  |  [8.9406967e-08]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [4.0111780e-02]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.1920929e-07]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [4.5958757e-03]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [9.9999833e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 80.0, Iteration: 102, Validation dataset size: 20
+0|priyanka  | Current best: 80.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 2.7794 - acc: 0.9000 - auroc: 0.9800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[2.7794313430786133], [0.9], [0.98]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 12.7901 - acc: 0.8000 - auroc: 0.9250
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[12.790085792541504], [0.8], [0.925]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [8.9406967e-08]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [3.3974648e-05]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 80.0, Iteration: 104, Validation dataset size: 20
+0|priyanka  | Current best: 80.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 20.1476 - acc: 0.8500 - auroc: 0.8200
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[20.147619247436523], [0.85], [0.82]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 5.5142 - acc: 0.9000 - auroc: 0.9450
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[5.514232635498047], [0.9], [0.945]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [5.9604645e-08]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 106, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 11.6936 - acc: 0.7500 - auroc: 0.8500
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[11.693635940551758], [0.75], [0.85]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 22.0788 - acc: 0.7500 - auroc: 0.8400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[22.078765869140625], [0.75], [0.84]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[2.8866747e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [6.4879656e-04]
+0|priyanka  |  [3.6546588e-04]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9958235e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.6010325e-02]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 108, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 13.3185 - acc: 0.7500 - auroc: 0.8900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[13.318464279174805], [0.75], [0.89]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 5.2174 - acc: 0.9000 - auroc: 0.9500
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[5.2174201011657715], [0.9], [0.95]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[7.5262785e-04]
+0|priyanka  |  [1.9907951e-04]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [2.9567462e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999326e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9982804e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 110, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 12.6458 - acc: 0.8500 - auroc: 0.8800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[12.645813941955566], [0.85], [0.88]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 12.0886 - acc: 0.8500 - auroc: 0.8050
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[12.088573455810547], [0.85], [0.805]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [4.4703484e-07]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [5.0067902e-06]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [3.7869811e-04]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9998891e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 112, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 19.1027 - acc: 0.8500 - auroc: 0.8750
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[19.102699279785156], [0.85], [0.875]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 13.9767 - acc: 0.8000 - auroc: 0.8500
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[13.9766845703125], [0.8], [0.85]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.4998649 ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.99997437]
+0|priyanka  |  [0.99999964]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.9999919 ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 100.0, Iteration: 114, Validation dataset size: 20
+0|priyanka  | Current best: 100.0, previous best: 95.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 19.2112 - acc: 0.8000 - auroc: 0.8800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[19.211212158203125], [0.8], [0.88]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 6.8233 - acc: 0.9000 - auroc: 0.9300
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[6.823342323303223], [0.9], [0.93]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.8447638e-05]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [4.9985948e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.2679711e-06]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [5.8632755e-01]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 116, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 4.0301 - acc: 0.9500 - auroc: 0.9450
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.0301103591918945], [0.95], [0.945]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 13.0126 - acc: 0.8000 - auroc: 0.8200
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[13.012621879577637], [0.8], [0.82]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [7.0598722e-04]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.3421837e-02]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 118, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 8.3480 - acc: 0.8500 - auroc: 0.8600
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[8.347970962524414], [0.85], [0.86]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 5.9586e-08 - acc: 1.0000 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[5.9586106715414644e-08], [1.0], [1.0]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [5.9336424e-05]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 120, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 5.5609 - acc: 0.8500 - auroc: 0.9450
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[5.560941696166992], [0.85], [0.945]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 0.2268 - acc: 0.9500 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[0.22676070034503937], [0.95], [1.0]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [3.8743019e-06]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [6.1696142e-02]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9989259e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 80.0, Iteration: 122, Validation dataset size: 20
+0|priyanka  | Current best: 80.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 3.5319 - acc: 0.9000 - auroc: 0.9900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[3.5319132804870605], [0.9], [0.99]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 3.5390 - acc: 0.9500 - auroc: 0.9900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[3.539032459259033], [0.95], [0.99]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [3.7550926e-06]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [5.4779649e-04]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 100.0, Iteration: 124, Validation dataset size: 20
+0|priyanka  | Current best: 100.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 3.8455 - acc: 0.9000 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[3.845521926879883], [0.9], [1.0]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 6.2233 - acc: 0.9000 - auroc: 0.9450
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[6.223288536071777], [0.9], [0.945]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.4603138e-06]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.4901161e-07]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [3.8912100e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 126, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 2.0680 - acc: 0.9500 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[2.0679776668548584], [0.95], [1.0]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 4.0369 - acc: 0.9500 - auroc: 0.9350
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.036853313446045], [0.95], [0.935]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.0089685]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [0.9999993]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 128, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 16.5648 - acc: 0.9000 - auroc: 0.9150
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[16.564777374267578], [0.9], [0.915]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 12.1115 - acc: 0.8500 - auroc: 0.8350
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[12.11146354675293], [0.85], [0.835]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [6.7949295e-06]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 100.0, Iteration: 130, Validation dataset size: 20
+0|priyanka  | Current best: 100.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 27s 1s/step - loss: 0.6711 - acc: 0.9500 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[0.67113196849823], [0.95], [1.0]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 27s 1s/step - loss: 4.0971 - acc: 0.9000 - auroc: 0.9900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.097071170806885], [0.9], [0.99]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]
+0|priyanka  |  [0.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 132, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 27s 1s/step - loss: 23.2852 - acc: 0.8000 - auroc: 0.8750
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[23.285198211669922], [0.8], [0.875]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 26s 1s/step - loss: 4.7881 - acc: 0.9000 - auroc: 0.9500
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.788145542144775], [0.9], [0.95]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.0560334e-02]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [9.0085280e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [2.9802322e-08]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 134, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 13.4413 - acc: 0.8500 - auroc: 0.9200
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[13.441256523132324], [0.85], [0.92]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 9.7538 - acc: 0.8500 - auroc: 0.8800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[9.753809928894043], [0.85], [0.88]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[1.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.23028007]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 136, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 0.1855 - acc: 0.9500 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[0.18549899756908417], [0.95], [1.0]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 7.8209 - acc: 0.9000 - auroc: 0.9800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[7.820916652679443], [0.9], [0.98]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [0.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [0.9970072]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]
+0|priyanka  |  [1.       ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 100.0, Iteration: 138, Validation dataset size: 20
+0|priyanka  | Current best: 100.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 1.3583 - acc: 0.9000 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[1.3583014011383057], [0.9], [1.0]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 0.4394 - acc: 0.9500 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[0.4394403100013733], [0.95], [1.0]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [5.9604645e-07]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [4.0697724e-02]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 100.0, Iteration: 140, Validation dataset size: 20
+0|priyanka  | Current best: 100.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 4.0377 - acc: 0.9500 - auroc: 0.9450
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.037699222564697], [0.95], [0.945]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 1.0143e-06 - acc: 1.0000 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[1.0142963446924114e-06], [1.0], [1.0]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [0.00487456]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 142, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 4.8837 - acc: 0.9000 - auroc: 0.9300
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.883678436279297], [0.9], [0.93]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 7.1037 - acc: 0.9000 - auroc: 0.9800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[7.103733062744141], [0.9], [0.98]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.        ]
+0|priyanka  |  [0.00685477]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.05246684]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [0.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]
+0|priyanka  |  [1.        ]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 100.0, Iteration: 144, Validation dataset size: 20
+0|priyanka  | Current best: 100.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 9.3728 - acc: 0.8500 - auroc: 0.8800
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[9.37282943725586], [0.85], [0.88]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 4.1312 - acc: 0.9000 - auroc: 0.9900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.131200790405273], [0.9], [0.99]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[5.9604645e-08]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [2.4520993e-02]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.8585622e-03]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [6.7526698e-03]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 90.0, Iteration: 146, Validation dataset size: 20
+0|priyanka  | Current best: 90.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 5.4602e-14 - acc: 1.0000 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[5.460160725249616e-14], [1.0], [1.0]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 7.3359 - acc: 0.9500 - auroc: 0.9900
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[7.335897922515869], [0.95], [0.99]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [3.1948090e-05]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [4.9989936e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.8136472e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9998510e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999833e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.9999821e-01]
+0|priyanka  |  [9.9531233e-01]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 100.0, Iteration: 148, Validation dataset size: 20
+0|priyanka  | Current best: 100.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 15.8410 - acc: 0.9000 - auroc: 0.9400
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[15.840974807739258], [0.9], [0.94]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 1.4696 - acc: 0.9500 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[1.4696271419525146], [0.95], [1.0]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]
+0|priyanka  |  [0.]
+0|priyanka  |  [0.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]
+0|priyanka  |  [1.]
+0|priyanka  |  [0.]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 85.0, Iteration: 150, Validation dataset size: 20
+0|priyanka  | Current best: 85.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 11.3239 - acc: 0.8000 - auroc: 0.8700
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[11.32394790649414], [0.8], [0.87]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 4.0295 - acc: 0.9500 - auroc: 0.9450
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[4.0295329093933105], [0.95], [0.945]])
+0|priyanka  |  -------Saving data---- 
+0|priyanka  | [[0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [2.5436035e-01]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [2.5436035e-01]
+0|priyanka  |  [1.8045306e-04]
+0|priyanka  |  [0.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [1.0000000e+00]
+0|priyanka  |  [9.8958886e-01]
+0|priyanka  |  [0.0000000e+00]]
+0|priyanka  |  [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+0|priyanka  | Accu: 95.0, Iteration: 152, Validation dataset size: 20
+0|priyanka  | Current best: 95.0, previous best: 100.0
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 4.2907e-04 - acc: 1.0000 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[0.00042906650924123824], [1.0], [1.0]])
+0|priyanka  | Epoch 1/1
+0|priyanka  | 20/20 [==============================] - 25s 1s/step - loss: 1.0007 - acc: 0.9500 - auroc: 1.0000
+0|priyanka  |  ------------- 
+0|priyanka  | dict_values([[1.0007339715957642], [0.95], [1.0]])

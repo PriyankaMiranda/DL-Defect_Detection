@@ -24,15 +24,9 @@ Pipeline -
 	The neural net identifies whther the two images are similar or different
 
 3) Segmentation neural net -
-	RCNN
-
-	This net is used to identify keypoints in the two images deemed different based on the classification neural net.
-	These keypoints are matched to each other. The remaining unmatched keypoints in the tested are segmented.  
-
-
-4) Image stitching / superimposition
-
-
+	Classification model with object detection incorporated.
+	then on the bounding box, apply keras_segmentation module.
+	
 
 
 	
