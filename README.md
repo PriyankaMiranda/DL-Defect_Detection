@@ -15,20 +15,24 @@ Pipeline -
 ------------
 
 1) Data augmentation -  
+	
 	For both good and bad image.
 
 2) Classification Neural net -
-	Siamese nural net (VGG model with some changes to the final 2 layers).
-	* VGG net : 4096 features  
-	Look at modelsummary to get the structure. 
+	
+	Siamese nural net (VGGFace model with some changes to the final 2 layers).
+	Look at model summary to get the structure. 
 	The neural net identifies whther the two images are similar or different
 
-3) Segmentation neural net -
-	Classification model with object detection incorporated.
-	then on the bounding box, apply keras_segmentation module.
-	
+3) Object detection net -
 
+	Object detection model with custom classfiication base model.
+	We remove the fully-connected layer responsible for classification in the object detection model.
+	We replace it with my model for detecting faults.
 
+3) Segmentation net -
+
+	On the bounding box obtained after the object detection, we apply pretrained model from keras_segmentation module.
 	
 Other possibilies - 
 ---------------------
